@@ -1,0 +1,16 @@
+<?php echo $this->renderPartial("common.views.common._rightColumn"); ?>
+				
+<!-- Main Body -->
+<section id="content">
+
+<h1>Announcements</h1>
+
+<?php $this->widget('bootstrap.widgets.TbListView',array(
+	'dataProvider'=>$dataProvider,
+	'itemView'=>'_view',
+)); ?>
+
+
+
+<div class="clearfix"></div>
+</section>

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/social/!svn/ver/6/social/views/common/widgets
+END
+_news.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/social/!svn/ver/2/social/views/common/widgets/_news.php
+END
+_workspace.php
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/social/!svn/ver/6/social/views/common/widgets/_workspace.php
+END
+_groups.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/social/!svn/ver/2/social/views/common/widgets/_groups.php
+END
+_upcoming.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/social/!svn/ver/2/social/views/common/widgets/_upcoming.php
+END
+_people.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/social/!svn/ver/1/social/views/common/widgets/_people.php
+END
+_todo.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/social/!svn/ver/1/social/views/common/widgets/_todo.php
+END
+_company.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/social/!svn/ver/1/social/views/common/widgets/_company.php
+END

@@ -1,0 +1,70 @@
+10
+
+dir
+0
+http://socialintranet.bw.ae:81/svn/social/social/views/user1
+http://socialintranet.bw.ae:81/svn/social
+add
+
+
+
+
+
+has-props
+has-prop-mods
+
+
+
+
+
+
+
+
+
+
+
+
+4452122a-52eb-4eea-92c0-ca6ac1fed351
+
+_view.php
+file
+
+
+
+add
+
+view.php
+file
+
+
+
+add
+
+_form.php
+file
+
+
+
+add
+
+update.php
+file
+
+
+
+add
+
+_settingsform.php
+file
+
+
+
+add
+
+index.php
+file
+
+
+
+add
+

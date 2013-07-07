@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/social/!svn/ver/2/social/views/newsTaskSettings
+END
+_view.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/social/!svn/ver/2/social/views/newsTaskSettings/_view.php
+END
+view.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/social/!svn/ver/2/social/views/newsTaskSettings/view.php
+END
+_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/social/!svn/ver/2/social/views/newsTaskSettings/_form.php
+END
+update.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/social/!svn/ver/2/social/views/newsTaskSettings/update.php
+END
+create.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/social/!svn/ver/2/social/views/newsTaskSettings/create.php
+END
+_search.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/social/!svn/ver/2/social/views/newsTaskSettings/_search.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/social/!svn/ver/2/social/views/newsTaskSettings/index.php
+END
+admin.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/social/!svn/ver/2/social/views/newsTaskSettings/admin.php
+END

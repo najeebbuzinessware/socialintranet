@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/social/!svn/ver/4/social/views/messages
+END
+_view.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/social/!svn/ver/1/social/views/messages/_view.php
+END
+view.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/social/!svn/ver/4/social/views/messages/view.php
+END
+sentItems.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/social/!svn/ver/4/social/views/messages/sentItems.php
+END
+_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/social/!svn/ver/1/social/views/messages/_form.php
+END
+update.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/social/!svn/ver/4/social/views/messages/update.php
+END
+create.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/social/!svn/ver/4/social/views/messages/create.php
+END
+_search.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/social/!svn/ver/1/social/views/messages/_search.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/social/!svn/ver/4/social/views/messages/index.php
+END
+_messageMenu.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/social/!svn/ver/1/social/views/messages/_messageMenu.php
+END
+admin.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/social/!svn/ver/4/social/views/messages/admin.php
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/social/!svn/ver/7/social/views/site
+END
+error.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/social/!svn/ver/1/social/views/site/error.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/social/!svn/ver/7/social/views/site/index.php
+END
+login.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/social/!svn/ver/6/social/views/site/login.php
+END

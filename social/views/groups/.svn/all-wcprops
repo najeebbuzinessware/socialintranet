@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/social/!svn/ver/7/social/views/groups
+END
+_view.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/social/!svn/ver/5/social/views/groups/_view.php
+END
+view.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/social/!svn/ver/4/social/views/groups/view.php
+END
+_form.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/social/!svn/ver/7/social/views/groups/_form.php
+END
+update.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/social/!svn/ver/4/social/views/groups/update.php
+END
+create.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/social/!svn/ver/4/social/views/groups/create.php
+END
+_search.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/social/!svn/ver/3/social/views/groups/_search.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/social/!svn/ver/5/social/views/groups/index.php
+END
+admin.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/social/!svn/ver/6/social/views/groups/admin.php
+END

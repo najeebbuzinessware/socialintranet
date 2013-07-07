@@ -1,0 +1,25 @@
+<?php echo $this->renderPartial("common.views.common._rightColumn"); ?>
+				
+<!-- Main Body -->
+<section id="content">
+
+<h1>Groups</h1>
+
+<?php $this->widget('bootstrap.widgets.TbListView',array(
+	'dataProvider'=>$dataProvider,
+	'itemView'=>'_view',
+)); 
+
+/* $this->widget('bootstrap.widgets.TbExtendedGridView', array(
+		//'filter'=>$person,
+		'type'=>'striped bordered',
+		'dataProvider' => $dataProvider,
+		'template' => "{items}",
+		'columns' => array_merge(array(array('class'=>'bootstrap.widgets.TbImageColumn')),$gridColumns),
+)); */
+
+?>
+
+
+<div class="clearfix"></div>
+</section>

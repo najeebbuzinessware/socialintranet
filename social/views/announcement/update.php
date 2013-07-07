@@ -1,0 +1,12 @@
+<?php echo $this->renderPartial("common.views.common._rightColumn"); ?>
+				
+<!-- Main Body -->
+<section id="content">
+
+<h1>Update Announcement </h1>
+
+<?php echo $this->renderPartial('_form',array('model'=>$model)); ?>
+
+
+<div class="clearfix"></div>
+</section>

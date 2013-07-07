@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/social/!svn/ver/1/social/controllers
+END
+TasksController.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/social/!svn/ver/1/social/controllers/TasksController.php
+END
+MessagesController.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/social/!svn/ver/1/social/controllers/MessagesController.php
+END
+NewsController_bkp.php
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/social/!svn/ver/1/social/controllers/NewsController_bkp.php
+END
+AnnouncementController.php
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/social/!svn/ver/1/social/controllers/AnnouncementController.php
+END
+NewsController.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/social/!svn/ver/1/social/controllers/NewsController.php
+END
+UserController.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/social/!svn/ver/1/social/controllers/UserController.php
+END
+GroupsController.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/social/!svn/ver/1/social/controllers/GroupsController.php
+END
+WallController.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/social/!svn/ver/1/social/controllers/WallController.php
+END
+SiteController.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/social/!svn/ver/1/social/controllers/SiteController.php
+END

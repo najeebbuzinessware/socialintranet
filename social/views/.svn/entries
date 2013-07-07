@@ -1,0 +1,81 @@
+10
+
+dir
+9
+http://socialintranet.bw.ae:81/svn/social/social/views
+http://socialintranet.bw.ae:81/svn/social
+
+
+
+2013-07-05T04:43:45.723339Z
+9
+nadeem
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+4452122a-52eb-4eea-92c0-ca6ac1fed351
+
+groups
+dir
+
+newsTaskSettings
+dir
+
+tasks
+dir
+
+common
+dir
+
+announcement
+dir
+
+tags
+dir
+
+wall
+dir
+
+user1
+dir
+
+
+
+add
+
+layouts
+dir
+
+site
+dir
+
+messages
+dir
+
+fileManager
+dir
+
+news
+dir
+
+user
+dir
+
+
+
+add
+
+contacts
+dir
+
