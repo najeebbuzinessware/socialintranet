@@ -1,5 +1,5 @@
 
-body { font-family: 'PT Sans', arial, sans-serif; text-shadow: none !Important; }
+body { font-family: 'PT Sans', arial, sans-serif; text-shadow: none !Important; -webkit-font-smoothing: antialiased; }
 
 /* Text Colors */ 
 .blackText { color: #333333; }
@@ -135,22 +135,28 @@ table td { border: 0px none !important; vertical-align: top; padding: 0; }
 		.sideNav .nav li.active a { background: #fff; color: #0b9fec; text-shadow: none; }
 		.sideNav .nav li { margin-top: 3px; margin-bottom: 3px; }
 		
-	.sideNav .nav li a { color: #333333; }
+	.sideNav .nav li a { color: #333333; padding-left: 10px; }
 
 .sideNav .nav li .caret { float: right; }
 	
 .sideNav ul:first-child { background: #0b9fec; color: #fff; height: 28px; }
-	.sideNav ul.nav:first-child li { height: 30px !important; padding-top: 1px; }
-	.sideNav ul.nav:first-child .dropdown a.nav-header:first-child  { padding-top: 2px; color: #fff !important; text-transform: uppercase; margin-top: 1px; font-size: 14px; font-weight: normal; text-shadow: none !important; }
+	.sideNav ul.nav:first-child li { height: 20px !important; padding-top: 3px; padding-bottom: 3px; }
+	.sideNav ul.nav:first-child .dropdown a.nav-header:first-child  { padding-top: 2px; color: #fff !important; text-transform: uppercase; margin-top: -1px; font-size: 14px; font-weight: normal; text-shadow: none !important; }
 		.sideNav ul.nav:first-child a.nav-header:hover { background: transparent; }
 	.sideNav ul.nav:first-child a.nav-header span { float: right; padding-right: 5px; border-bottom-color: #fff; border-top-color: #fff; }
 	
-	.sideNav .portlet ul { background: transparent; }
+.sideNav ul.nav li.nav-header a i { margin-top: -3px; }	
+	
+	.sideNav ul.nav li a i { margin-right: 6px; }
+	
+	.sideNav .portlet ul { background: transparent; height: auto; }
 	
 .sideNav ul ul.dropdown-menu { margin-left: -15px; }
 	.sideNav ul ul.dropdown-menu a { text-transform: uppercase; }
 
 .sideNav .nav-header { color: #333333; font-weight: bold; font-size: 14px; padding-left: 0px; }	
+	.sideNav .nav-header a:hover { background: transparent; }
+
 
 
 	
@@ -176,9 +182,9 @@ table td { border: 0px none !important; vertical-align: top; padding: 0; }
 
 .mainFeeds .mfBox { position: relative; }
 
-.mainFeeds .mfBox .mfLinks { z-index: 1; position: absolute; top: 0; left: 0; height: 36px; overflow: hidden; }
+.mainFeeds .mfBox .mfLinks { z-index: 1; position: absolute; top: 0; left: 0; height: 40px; overflow: hidden; }
 .mainFeeds .mfBox .mfLinks ul li { height: 40px; }
-.mainFeeds .mfBox .mfLinks ul li.active { font-weight: bold; background: url('../images/feedpostarrow.png') no-repeat 50% 100%; }
+.mainFeeds .mfBox .mfLinks ul li.active { font-weight: bold; background: url('../images/feedpostarrow.png') no-repeat 20% 122%; }
 	.mainFeeds .mfBox .mfLinks ul li a{ color: inherit; }
 	.mainFeeds .mfBox .mfLinks ul li a:hover{ color: inherit; background: transparent !important; }
 	
@@ -232,7 +238,7 @@ table td { border: 0px none !important; vertical-align: top; padding: 0; }
 				.tagSuggestions .tagResults td { cursor: pointer; }
 
 
-.mainFeeds .mfBox .postBtnbox .postBoxEfxBtn02 { margin-left: 10px; cursor: pointer; margin-top: 0px !important; color: #333333; background: #f5f5f5; border: 0px; }
+.mainFeeds .mfBox .postBtnbox .postBoxEfxBtn02 { margin-left: 10px; cursor: pointer; margin-top: 5px !important; color: #333333; background: #f5f5f5; border: 0px; font-weight: bold; background: transparent; }
 
 .mainFeeds .feedlistItems { border-top: 1px solid #d1d1d1; padding-top: 2px; margin-top: 20px; }
 	.mainFeeds .feedlistItems .dropdown { padding: 5px 10px; background: #f4f4f4; text-transform: uppercase; }
