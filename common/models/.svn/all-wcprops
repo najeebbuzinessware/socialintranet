@@ -1,0 +1,173 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/social/!svn/ver/1/common/models
+END
+TblSysFrontendBanners.php
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/social/!svn/ver/1/common/models/TblSysFrontendBanners.php
+END
+TblCollGroups.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/social/!svn/ver/1/common/models/TblCollGroups.php
+END
+TblSysAuthAssignment.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/social/!svn/ver/1/common/models/TblSysAuthAssignment.php
+END
+TblAnnouncement.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/social/!svn/ver/1/common/models/TblAnnouncement.php
+END
+LoginForm.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/social/!svn/ver/1/common/models/LoginForm.php
+END
+TblMaster.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/social/!svn/ver/1/common/models/TblMaster.php
+END
+TblTemplates.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/social/!svn/ver/1/common/models/TblTemplates.php
+END
+TblMenuManager.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/social/!svn/ver/1/common/models/TblMenuManager.php
+END
+TblCollComments.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/social/!svn/ver/1/common/models/TblCollComments.php
+END
+TblSysFrontendSettings.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/social/!svn/ver/1/common/models/TblSysFrontendSettings.php
+END
+TblSysUsers.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/social/!svn/ver/1/common/models/TblSysUsers.php
+END
+TblNotificationRules.php
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/social/!svn/ver/1/common/models/TblNotificationRules.php
+END
+TblNewsRss.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/social/!svn/ver/1/common/models/TblNewsRss.php
+END
+TblModuleAccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/social/!svn/ver/1/common/models/TblModuleAccess.php
+END
+TblMessages.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/social/!svn/ver/1/common/models/TblMessages.php
+END
+TblSysModules.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/social/!svn/ver/1/common/models/TblSysModules.php
+END
+TblModuleTask.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/social/!svn/ver/1/common/models/TblModuleTask.php
+END
+TblModules.php
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/social/!svn/ver/1/common/models/TblModules.php
+END
+TblCollWall.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/social/!svn/ver/1/common/models/TblCollWall.php
+END
+TblCollShare.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/social/!svn/ver/1/common/models/TblCollShare.php
+END
+User.php
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/social/!svn/ver/1/common/models/User.php
+END
+TblSysAuthItem.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/social/!svn/ver/1/common/models/TblSysAuthItem.php
+END
+TblSysAuthItemChild.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/social/!svn/ver/1/common/models/TblSysAuthItemChild.php
+END
+TblCollAttachments.php
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/social/!svn/ver/1/common/models/TblCollAttachments.php
+END
+TblCategories.php
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/social/!svn/ver/1/common/models/TblCategories.php
+END
+TblTasks.php
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/social/!svn/ver/1/common/models/TblTasks.php
+END
+TblDepartments.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/social/!svn/ver/1/common/models/TblDepartments.php
+END
+TblCollFollowers.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/social/!svn/ver/1/common/models/TblCollFollowers.php
+END

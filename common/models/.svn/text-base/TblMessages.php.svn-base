@@ -1,0 +1,135 @@
+<?php
+
+/**
+ * This is the model class for table "tbl_Messages".
+ *
+ * The followings are the available columns in table 'tbl_Messages':
+ * @property integer $MailId
+ * @property integer $FromUserId
+ * @property string $ToUserId
+ * @property string $Subject
+ * @property string $Message
+ * @property string $CreatedOn
+ * @property integer $CreatedBy
+ * @property string $ModifiedOn
+ * @property integer $ModifiedBy
+ * @property integer $IsActive
+ * @property integer $IsRead
+ * @property integer $IsDraft
+ * @property integer $IsDelete
+ * @property string $DeletedBy
+ * @property string $PermDeletedBy
+ */
+class TblMessages extends CActiveRecord
+{
+	/**
+	 * Returns the static model of the specified AR class.
+	 * @param string $className active record class name.
+	 * @return TblMessages the static model class
+	 */
+	public static function model($className=__CLASS__)
+	{
+		return parent::model($className);
+	}
+
+	/**
+	 * @return string the associated database table name
+	 */
+	public function tableName()
+	{
+		return 'tbl_Messages';
+	}
+
+	/**
+	 * @return array validation rules for model attributes.
+	 */
+	public function rules()
+	{
+		// NOTE: you should only define rules for those attributes that
+		// will receive user inputs.
+		return array(
+			array('ToUserId, Subject, Message', 'required'),
+			array('FromUserId, CreatedBy, ModifiedBy, IsActive, IsRead, IsDraft, IsDelete', 'numerical', 'integerOnly'=>true),
+			array('ToUserId, Subject, DeletedBy, PermDeletedBy', 'length', 'max'=>255),
+			array('CreatedOn, ModifiedOn', 'length', 'max'=>20),
+			array('Message', 'safe'),
+			// The following rule is used by search().
+			// Please remove those attributes that should not be searched.
+			array('MailId, FromUserId, ToUserId, Subject, Message, CreatedOn, CreatedBy, ModifiedOn, ModifiedBy, IsActive, IsRead, IsDraft, IsDelete, DeletedBy, PermDeletedBy', 'safe', 'on'=>'search'),
+		);
+	}
+
+	/**
+	 * @return array relational rules.
+	 */
+	public function relations()
+	{
+		// NOTE: you may need to adjust the relation name and the related
+		// class name for the relations automatically generated below.
+		return array(
+		);
+	}
+
+	/**
+	 * @return array customized attribute labels (name=>label)
+	 */
+	public function attributeLabels()
+	{
+		return array(
+			'MailId' => 'Mail',
+			'FromUserId' => 'From User',
+			'ToUserId' => 'To User',
+			'Subject' => 'Subject',
+			'Message' => 'Message',
+			'CreatedOn' => 'Created On',
+			'CreatedBy' => 'Created By',
+			'ModifiedOn' => 'Modified On',
+			'ModifiedBy' => 'Modified By',
+			'IsActive' => 'Is Active',
+			'IsRead' => 'Is Read',
+			'IsDraft' => 'Is Draft',
+			'IsDelete' => 'Is Delete',
+			'DeletedBy' => 'Deleted By',
+			'PermDeletedBy' => 'Perm Deleted By',
+		);
+	}
+
+	/**
+	 * Retrieves a list of models based on the current search/filter conditions.
+	 * @return CActiveDataProvider the data provider that can return the models based on the search/filter conditions.
+	 */
+	public function search()
+	{
+		// Warning: Please modify the following code to remove attributes that
+		// should not be searched.
+
+		$criteria=new CDbCriteria;
+
+		$criteria->compare('MailId',$this->MailId);
+		$criteria->compare('FromUserId',$this->FromUserId);
+		$criteria->compare('ToUserId',$this->ToUserId,true);
+		$criteria->compare('Subject',$this->Subject,true);
+		$criteria->compare('Message',$this->Message,true);
+		$criteria->compare('CreatedOn',$this->CreatedOn,true);
+		$criteria->compare('CreatedBy',$this->CreatedBy);
+		$criteria->compare('ModifiedOn',$this->ModifiedOn,true);
+		$criteria->compare('ModifiedBy',$this->ModifiedBy);
+		$criteria->compare('IsActive',$this->IsActive);
+		$criteria->compare('IsRead',$this->IsRead);
+		$criteria->compare('IsDraft',$this->IsDraft);
+		$criteria->compare('IsDelete',$this->IsDelete);
+		$criteria->compare('DeletedBy',$this->DeletedBy,true);
+		$criteria->compare('PermDeletedBy',$this->PermDeletedBy,true);
+
+		return new CActiveDataProvider($this, array(
+			'criteria'=>$criteria,
+		));
+	}
+	
+	public function getMessagesCount(){
+		$criteria = new CDbCriteria();
+		$criteria->condition = 'ToUserId='.Yii::app()->user->Id;
+		$model=TblMessages::model()->count($criteria);
+		return $model;
+	}
+}

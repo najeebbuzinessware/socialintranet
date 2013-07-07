@@ -1,0 +1,111 @@
+<?php
+
+/**
+ * This is the model class for table "tbl_Categories".
+ *
+ * The followings are the available columns in table 'tbl_Categories':
+ * @property integer $CatId
+ * @property string $Category
+ * @property string $Type
+ * @property integer $MId
+ */
+class TblCategories extends CActiveRecord
+{
+	/**
+	 * Returns the static model of the specified AR class.
+	 * @param string $className active record class name.
+	 * @return TblCategories the static model class
+	 */
+	public static function model($className=__CLASS__)
+	{
+		return parent::model($className);
+	}
+
+	/**
+	 * @return string the associated database table name
+	 */
+	public function tableName()
+	{
+		return 'tbl_Categories';
+	}
+
+	/**
+	 * @return array validation rules for model attributes.
+	 */
+	public function rules()
+	{
+		// NOTE: you should only define rules for those attributes that
+		// will receive user inputs.
+		return array(
+			array('Category, Type ', 'required'),
+			array('MId', 'numerical', 'integerOnly'=>true),
+			array('Category, Type', 'length', 'max'=>255),
+						
+			array('MId','default','value'=>Yii::app()->user->MId,'setOnEmpty'=>false,'on'=>'insert'),
+				
+			// The following rule is used by search().
+			// Please remove those attributes that should not be searched.
+			array('CatId, Category, Type, MId', 'safe', 'on'=>'search'),
+		);
+	}
+
+	/**
+	 * @return array relational rules.
+	 */
+	public function relations()
+	{
+		// NOTE: you may need to adjust the relation name and the related
+		// class name for the relations automatically generated below.
+		return array(
+		);
+	}
+
+	/**
+	 * @return array customized attribute labels (name=>label)
+	 */
+	public function attributeLabels()
+	{
+		return array(
+			'CatId' => 'Cat',
+			'Category' => 'Category',
+			'Type' => 'Type',
+			'MId' => 'Mid',
+		);
+	}
+
+	/**
+	 * Retrieves a list of models based on the current search/filter conditions.
+	 * @return CActiveDataProvider the data provider that can return the models based on the search/filter conditions.
+	 */
+	public function search()
+	{
+		// Warning: Please modify the following code to remove attributes that
+		// should not be searched.
+
+		$criteria=new CDbCriteria;
+
+		$criteria->compare('CatId',$this->CatId);
+		$criteria->compare('Category',$this->Category,true);
+		$criteria->compare('Type',$this->Type,true);
+		$criteria->compare('MId',$this->MId);
+
+		return new CActiveDataProvider($this, array(
+			'criteria'=>$criteria,
+		));
+	}
+	
+	public function getCategoryFromMId($type)
+	{
+		$criteria = new CDbCriteria;
+		$criteria->condition = "MId = '".Yii::app()->user->MId."' and `Type`='".$type."'";
+		
+		$model = CHtml::listData(TblCategories::model()->findAll($criteria),"CatId","Category");
+		return $model;
+	}
+	
+	public function getCategoryName($id)
+	{
+		$model = TblCategories::model()->findByPk($id)->Category;
+		return $model;
+	}
+}
