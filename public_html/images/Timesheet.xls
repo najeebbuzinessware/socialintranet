@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns:html="http://www.w3.org/TR/REC-html40">
+<Worksheet ss:Name="My Test Sheet">
+<Table>
+<Row>
+<Cell><Data ss:Type="String">Project Name</Data></Cell>
+<Cell><Data ss:Type="String">SapZania Private</Data></Cell>
+</Row>
+<Row>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Bidder Name</Data></Cell>
+<Cell><Data ss:Type="String">nadeem shaikh</Data></Cell>
+</Row>
+<Row>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">AFE Code</Data></Cell>
+<Cell><Data ss:Type="String">#@$%%4!#</Data></Cell>
+</Row>
+<Row>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Project Activation Date</Data></Cell>
+<Cell><Data ss:Type="String">2012-05-15 11:08:53</Data></Cell>
+</Row>
+<Row>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Project Closing Date</Data></Cell>
+<Cell><Data ss:Type="String">2012-05-15 11:09:54</Data></Cell>
+</Row>
+<Row>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Scope</Data></Cell>
+<Cell><Data ss:Type="String">Timesheet Approved Date</Data></Cell>
+<Cell><Data ss:Type="String">Hours/Mins</Data></Cell>
+<Cell><Data ss:Type="String">Timesheet Details</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String"> </Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Email Configure SAP</Data></Cell>
+<Cell><Data ss:Type="String">2012-04-05 13:29:58</Data></Cell>
+<Cell><Data ss:Type="String">2 hr  15 min </Data></Cell>
+<Cell><Data ss:Type="String">I did 2 hours of work. Please approve
+
+
+
+Do not decline...
+
+Thx</Data></Cell>
+</Row>
+<Row>
+<Cell></Cell>
+<Cell><Data ss:Type="String">2012-05-13 13:29:58</Data></Cell>
+<Cell><Data ss:Type="String">1 hr  19 min </Data></Cell>
+<Cell><Data ss:Type="String">Please do not reject
+
+I want this to be approved
+
+
+
+thx</Data></Cell>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">SubTotal</Data></Cell>
+
+								<Cell><Data ss:Type="String">&nbsp;</Data></Cell>
+<Cell><Data ss:Type="String">3 hr  34 min </Data></Cell>
+</Row>
+<Row>
+</Row>
+<Row>
+<Cell><Data ss:Type="String">Total</Data></Cell>
+
+								<Cell><Data ss:Type="String">&nbsp;</Data></Cell>
+<Cell><Data ss:Type="String">3 hr  34 min </Data></Cell>
+</Row>
+</Table>
+</Worksheet>
+</Workbook>
