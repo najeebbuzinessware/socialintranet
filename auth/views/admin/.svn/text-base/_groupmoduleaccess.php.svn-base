@@ -1,0 +1,46 @@
+<?php 
+	$criteria = new CDbCriteria();
+	$criteria->condition = "Parent = '".$data->ModuleId."' AND Visible LIKE 'Yes'";
+	$datamodel = TblModules::model()->findAll($criteria);
+	$columnArray = array("Add","Edit","View","Delete");
+	
+	if(count($datamodel)>0)
+	{
+		foreach($datamodel as $key=>$val)
+		{
+			$ModuleName = TblModules::model()->findByPk($val['ModuleId']);
+			$actioncriteria = new CDbCriteria();
+			$actioncriteria->condition = "ModuleId=".$val['ModuleId'];
+			$ActionList = TblModuleTask::model()->findAll($actioncriteria);
+
+			if(count($ActionList)>0)
+			{		
+?>
+        <tr>
+          <td class="headline3"><?php echo $ModuleName->Module; ?></td>
+          <? 
+		  	$colspan = (4-count($ActionList));
+            foreach($ActionList as $key=>$value)
+			{  
+				if($colspan){ $colsp = "colspan='".($colspan+1)."'";}
+				$optionselected = '';
+                $AuthChild = TblSysAuthItemChild::model()->findByAttributes(array('child'=>$value->Task,'MId'=>Yii::app()->user->MId,'parent'=>$groupname));
+                $classGreen = "";
+				
+				if(count($AuthChild)>0)
+				{
+					$optionselected = 'checked="checked"';
+					$classGreen = 'class="backGREEN"';
+				}
+				
+				if(in_array($value->Label,$columnArray))
+				{
+            ?>
+          <td <?=$classGreen ?>>
+          	<input type="checkbox" name="configoption[<?=$groupname ?>][<?=$value->Task ?>]" value="Yes"  class="checkbox" <?=$optionselected ?>  />
+          </td>
+          <?  $count++; }else{ ?>
+          <td> - </td>
+          <?  } } ?>
+        </tr>
+<? } } }  ?>

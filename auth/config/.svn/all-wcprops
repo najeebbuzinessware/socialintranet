@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/appsdev/!svn/ver/3/auth/config
+END
+params-env.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/appsdev/!svn/ver/3/auth/config/params-env.php
+END
+main-env.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/appsdev/!svn/ver/3/auth/config/main-env.php
+END
+params-local.php
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/appsdev/!svn/ver/3/auth/config/params-local.php
+END
+main-local.php
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/appsdev/!svn/ver/3/auth/config/main-local.php
+END
+test.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/appsdev/!svn/ver/3/auth/config/test.php
+END
+params.php
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/appsdev/!svn/ver/3/auth/config/params.php
+END
+main.php
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/appsdev/!svn/ver/3/auth/config/main.php
+END

@@ -1,0 +1,86 @@
+<div id="outer_container" class="custom_background">
+
+<?php $this->renderpartial('application.views.user._userTopmenu'); ?>
+<div class="container_12">
+		<div class="grid_1">
+			<div id="sideIcons">
+				<a href="#" class="icon groupIcon"></a>
+				<div class="halfmargin"></div>
+    	
+      <?
+						
+if (count( $alphasort ) > 0)
+						{
+							foreach ( $alphasort as $key => $val )
+							{
+								$tablename = preg_replace( '/(?<!^)([A-Z])/', " $0", str_replace( "Tbl", "", $val['TableName'] ) );
+								$iconclass = BWDataFunction::getIconClass( $val['TableName'] );
+								if (strlen( $iconclass ) < 1)
+								{
+									continue;
+								}
+								?>
+          <a href="#<?=$val['TableName']?>Anchor" title="Deleted <?=$tablename ?>" class="icon <?=$iconclass ?> InlineScrollTrigger"></a>
+				<div class="halfmargin"></div>
+      <? } } ?>
+      
+      <a href="#" class="icon emailIcon"></a> <a href="#" onClick="return: false;">&nbsp;</a>
+			</div>
+		</div>
+		<div class="grid_11 box shadowed_little">
+			<div class="padding">
+				<div class="lined">
+					<div class="grid_12 alpha">
+						<h2 class="headline1 noMargUp noMargDown LEFT"><?php echo Yii::t('translate','Recycle Bin'); ?></h2>
+						<p class="normaltxt1 noMargDown noMargUp"><?php echo Yii::t('translate','Recover or permanently delete records from the system.'); ?></p>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div class="bodyControls"></div>
+				<table class="default" cellpadding="10" cellspacing="0" border="0">
+        <?
+								
+if (count( $alphasort ) > 0)
+								{
+									foreach ( $alphasort as $key => $val )
+									{
+										$tablename = preg_replace( '/(?<!^)([A-Z])/', " $0", str_replace( "Tbl", "", $val['TableName'] ) );
+										$dataProvider = new CActiveDataProvider( 'TblRecycleBin', 
+												array( 
+													'criteria' => array( 'condition' => "UserId =" . Yii::app()->user->Id . " and MId=" . Yii::app()->user->MId . " and TableName='" . $val['TableName'] . "'" ), 
+													'pagination' => array( 'pageSize' => 1 ) ) );
+										?>
+        <tr class="actionRow foldable">
+						<td class="title">
+							<h4 class="headline2" id="<?=$val['TableName'] ?>Anchor"><?php echo Yii::t('translate','Deleted'); ?>
+              <?=$tablename?>
+            </h4>
+						</td>
+						<td class="controls"><a href="#" title="Show / Hide Options" class="icon foldIcon"></a></td>
+					</tr>
+					<tr>
+						<td colspan="2" class="holder"><div class="safeWrapper">
+								<table class="ACL fixedLayout" cellpadding="10" cellspacing="0" border="0" id="<?=$val['TableName'] ?>posts">
+									<tr class="trheader">
+										<th><?php echo Yii::t('translate','Record Title'); ?></th>
+										<th><?php echo Yii::t('translate','Deletion Timestamp'); ?></th>
+										<th><?php echo Yii::t('translate','Deleted By'); ?></th>
+										<th><?php echo Yii::t('translate','Operations'); ?></th>
+									</tr>
+								</table>
+              <?
+										$this->widget( 'zii.widgets.CListView', 
+												array( 
+													'dataProvider' => $dataProvider, 
+													'itemView' => '_recyclebin', 
+													'template' => "{items}\n\n{pager}", 
+													'pager' => array( 'header' => '', 'nextPageLabel' => '>>', 'prevPageLabel' => '<<', 'maxButtonCount' => '0', 'cssFile' => false) ) );
+										?>
+            </div></td>
+					</tr>
+        <? } } ?>
+      </table>
+				<div class="margin"></div>
+			</div>
+		</div>
+	</div>

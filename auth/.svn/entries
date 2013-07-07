@@ -1,0 +1,62 @@
+10
+
+dir
+3
+http://appsdev.bw.ae:81/svn/appsdev/auth
+http://appsdev.bw.ae:81/svn/appsdev
+delete
+
+
+2013-03-12T06:17:27.278533Z
+3
+anoop
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+74016144-e27a-4eb9-be40-5896297a8aaf
+
+
+
+
+
+keep-local
+
+models
+dir
+
+
+
+delete
+
+config
+dir
+
+
+
+delete
+
+controllers
+dir
+
+
+
+delete
+
+views
+dir
+
+
+
+delete
+

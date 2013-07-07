@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/appsdev/!svn/ver/3/auth/views/admin
+END
+listUser.php
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/appsdev/!svn/ver/3/auth/views/admin/listUser.php
+END
+listGroups.php
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/appsdev/!svn/ver/3/auth/views/admin/listGroups.php
+END
+_groupaccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/appsdev/!svn/ver/3/auth/views/admin/_groupaccess.php
+END
+_adminTopmenu.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/appsdev/!svn/ver/3/auth/views/admin/_adminTopmenu.php
+END
+acl.php
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/appsdev/!svn/ver/3/auth/views/admin/acl.php
+END
+_groupmodule.php
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/appsdev/!svn/ver/3/auth/views/admin/_groupmodule.php
+END
+listDepartments.php
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/appsdev/!svn/ver/3/auth/views/admin/listDepartments.php
+END
+_groupmoduleaccess.php
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/appsdev/!svn/ver/3/auth/views/admin/_groupmoduleaccess.php
+END
+customization.php
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/appsdev/!svn/ver/3/auth/views/admin/customization.php
+END
